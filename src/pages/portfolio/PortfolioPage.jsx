@@ -25,6 +25,7 @@ function PortfolioPage() {
                   // noopener prevents the new window from having access to the window.opener property and the DOM of the opener window
                   // noreferrer prevents the new page from being able to access information from the original page
                   rel="noopener noreferrer"
+                  style={{ color: "#f8f8f8" }}
                 >
                   GitHub
                 </a>
@@ -33,6 +34,7 @@ function PortfolioPage() {
                   className="card-link"
                   target="_blank"
                   rel="noopener noreferrer"
+                  style={{ color: "#f8f8f8" }}
                 >
                   Deployed App
                 </a>

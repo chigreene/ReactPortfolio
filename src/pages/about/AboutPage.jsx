@@ -1,7 +1,14 @@
+import portraitPic from "../../assets/faceportrait.jpg";
+import "./style.css";
+
 function AboutPage() {
   return (
-    <div>
-      <h1>About Page</h1>
+    <div className="about-card">
+      <div className="d-flex justify-content-start align-items-center">
+        <img className="portrait m-2" src={portraitPic} alt="Portrait Pic" />
+        <h1 className="m-2">About Page</h1>
+      </div>
+
       <p>
         After years of working in healthcare I was inspired by a friend to
         explore coding. After a couple months of dipping my toe in the water I
