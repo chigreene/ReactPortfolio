@@ -1,0 +1,13 @@
+.resume-card {
+  width: 80%;
+  margin: 20px auto 180px;
+  border: 1px solid black;
+  padding: 20px;
+  background-color: #f8f8f8;
+}
+
+@media (max-width: 768px) {
+  .resume-card {
+    width: 100%;
+  }
+}

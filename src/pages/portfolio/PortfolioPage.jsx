@@ -1,5 +1,4 @@
 import profileData from "../../profileData";
-import seasonalCatalogBackground from "../../assets/seasonalCatalogBackground.jpg";
 
 function PortfolioPage() {
   return (
