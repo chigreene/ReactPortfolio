@@ -1,6 +1,15 @@
+import { useEffect } from "react";
 import profileData from "../../profileData";
 
 function PortfolioPage() {
+  useEffect(() => {
+    document.title = "Chris Greene - Portfolio";
+
+    return () => {
+      document.title = "Chris Greene";
+    };
+  });
+
   return (
     <>
       <h2>Portfolio Page</h2>

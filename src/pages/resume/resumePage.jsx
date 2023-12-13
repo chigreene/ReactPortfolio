@@ -1,7 +1,16 @@
+import { useEffect } from "react";
 import resume from "../../assets/Full-Stack-Resume.docx.pdf";
 import "./style.css";
 
 function ResumePage() {
+  useEffect(() => {
+    document.title = "Chris Greene - Resume";
+
+    return () => {
+      document.title = "Chris Greene";
+    };
+  });
+
   return (
     <div className="resume-card">
       <h3>Resume</h3>

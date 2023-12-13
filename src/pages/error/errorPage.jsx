@@ -1,8 +1,17 @@
 import { useRouteError } from "react-router-dom";
+import { useEffect } from "react";
 
 export default function ErrorPage() {
   const error = useRouteError();
   console.log(error);
+
+  useEffect(() => {
+    document.title = "Chris Greene - Error Page";
+
+    return () => {
+      document.title = "Chris Greene";
+    };
+  });
 
   return (
     //   need to write css styling and import it

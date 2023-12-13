@@ -1,7 +1,16 @@
+import { useEffect } from "react";
 import portraitPic from "../../assets/faceportrait.jpg";
 import "./style.css";
 
 function AboutPage() {
+  useEffect(() => {
+    document.title = "Chris Greene - About Page";
+
+    return () => {
+      document.title = "Chris Greene";
+    };
+  });
+
   return (
     <div className="about-card">
       <div className="d-flex justify-content-start align-items-center">

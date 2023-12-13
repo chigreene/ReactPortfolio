@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 // import style sheet
 import "./style.css";
 
@@ -57,6 +57,14 @@ function ContactPage() {
       return;
     }
   };
+
+  useEffect(() => {
+    document.title = "Chris Greene - Contact Me";
+
+    return () => {
+      document.title = "Chris Greene";
+    };
+  });
 
   return (
     <div className="container text-center">
