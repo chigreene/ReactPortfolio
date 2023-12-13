@@ -1,6 +1,6 @@
 // brings in links from 'react-router-dom'
 import { Link } from "react-router-dom";
-import Navbar from "./UI/Navbar";
+import Navbar from "./UI/navbar";
 
 function Nav() {
   return (

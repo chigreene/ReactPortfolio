@@ -8,21 +8,21 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 // brings in the necessary pages for the router to conditionally show the appropriate views
 import App from "./App.jsx";
-import ErrorP from "./pages/error/ErrorP.jsx";
-import AboutP from "./pages/about/AboutP.jsx";
-import ResumePage from "./pages/resume/ResumeP.jsx";
-import ContactPage from "./pages/contact/ContactP.jsx";
-import PortfolioPage from "./pages/portfolio/PortfolioP.jsx";
+import ErrorPage from "./pages/error/errorPage.jsx";
+import AboutPage from "./pages/about/aboutPage.jsx";
+import ResumePage from "./pages/resume/resumePage.jsx";
+import ContactPage from "./pages/contact/contactPage.jsx";
+import PortfolioPage from "./pages/portfolio/portfolioPage.jsx";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
-    errorElement: <ErrorP />,
+    errorElement: <ErrorPage />,
     children: [
       {
         index: true,
-        element: <AboutP />,
+        element: <AboutPage />,
       },
       {
         path: "Resume",
