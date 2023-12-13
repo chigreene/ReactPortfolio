@@ -9,10 +9,10 @@ import "bootstrap/dist/css/bootstrap.min.css";
 // brings in the necessary pages for the router to conditionally show the appropriate views
 import App from "./App.jsx";
 import ErrorP from "./pages/error/ErrorP.jsx";
-import AboutPage from "./pages/about/AboutPage.jsx";
-import ResumePage from "./pages/resume/ResumePage.jsx";
-import ContactPage from "./pages/contact/ContactPage.jsx";
-import PortfolioPage from "./pages/portfolio/PortfolioPage.jsx";
+import AboutP from "./pages/about/AboutP.jsx";
+import ResumePage from "./pages/resume/ResumeP.jsx";
+import ContactPage from "./pages/contact/ContactP.jsx";
+import PortfolioPage from "./pages/portfolio/PortfolioP.jsx";
 
 const router = createBrowserRouter([
   {
@@ -22,7 +22,7 @@ const router = createBrowserRouter([
     children: [
       {
         index: true,
-        element: <AboutPage />,
+        element: <AboutP />,
       },
       {
         path: "Resume",

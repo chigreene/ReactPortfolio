@@ -6,7 +6,6 @@ const styles = {
     display: "flex",
     justifyContent: "center",
     alignItems: "center",
-    minHeight: "20%",
     background: "#6c757d",
     position: "fixed",
     bottom: 0,
