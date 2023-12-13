@@ -6,12 +6,12 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 // create and import ./index.css if needed
 
-// brings in the nessissary pages for the router to conditionally show the appropriate views
+// brings in the necessary pages for the router to conditionally show the appropriate views
 import App from "./App.jsx";
-import ErrorPage from "./pages/error/errorPage.jsx";
-import AboutPage from "./pages/about/indexPage.jsx";
-import ResumePage from "./pages/resume/resumePage.jsx";
-import ContactPage from "./pages/contact/contactPage.jsx";
+import ErrorPage from "./pages/error/ErrorPage.jsx";
+import AboutPage from "./pages/about/AboutPage.jsx";
+import ResumePage from "./pages/resume/ResumePage.jsx";
+import ContactPage from "./pages/contact/ContactPage.jsx";
 
 const router = createBrowserRouter([
   {
