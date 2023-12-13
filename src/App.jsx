@@ -8,7 +8,6 @@ function App() {
   return (
     <>
       <Header />
-      <h1>Test</h1>
       <Outlet />
       <Footer />
     </>

@@ -12,6 +12,7 @@ import ErrorPage from "./pages/error/ErrorPage.jsx";
 import AboutPage from "./pages/about/AboutPage.jsx";
 import ResumePage from "./pages/resume/ResumePage.jsx";
 import ContactPage from "./pages/contact/ContactPage.jsx";
+import PortfolioPage from "./pages/portfolio/PortfolioPage.jsx";
 
 const router = createBrowserRouter([
   {
@@ -24,12 +25,16 @@ const router = createBrowserRouter([
         element: <AboutPage />,
       },
       {
-        path: "resume",
+        path: "Resume",
         element: <ResumePage />,
       },
       {
         path: "Contact",
         element: <ContactPage />,
+      },
+      {
+        path: "Portfolio",
+        element: <PortfolioPage />,
       },
     ],
   },
