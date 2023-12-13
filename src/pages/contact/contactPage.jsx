@@ -85,6 +85,7 @@ function ContactPage() {
           onMouseLeave={handleMouseLeave}
           type="text"
           placeholder="Message"
+          style={{ height: "200px" }}
         />
         <button type="submit">Submit</button>
       </form>
