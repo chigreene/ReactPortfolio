@@ -3,12 +3,7 @@ import { Link } from "react-router-dom";
 import Navbar from "./UI/navbar";
 
 function Nav() {
-  const linksTab = [
-    { name: "Home", path: "/" },
-    { name: "Resume", path: "/Resume" },
-    { name: "Contact", path: "/Contact" },
-    { name: "Portfolio", path: "/Portfolio" },
-  ];
+  const location = useLocation();
   return (
     <Navbar
       links={[
@@ -30,3 +25,9 @@ function Nav() {
 }
 
 export default Nav;
+
+{
+  /* <li className={`nav-item ${location.pathname === link.to ? "active" : ""}`}>
+  {link}
+</li>; */
+}
