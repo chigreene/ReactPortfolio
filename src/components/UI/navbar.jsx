@@ -1,5 +1,3 @@
-import "./navbarStyles.css";
-
 export default function Nav({ links }) {
   return (
     <nav
